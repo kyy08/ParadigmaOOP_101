@@ -36,3 +36,12 @@ class pelajar : public orang {
 			return "Hallo, nama saya" + nama + " dari sekolah " + sekolah + "\n\n";
 		}
 };
+
+
+int main() {
+	pelajar siswa1("andi laksono", "SMA N 1 Bantul");
+	cout << siswa1.perkenalan();
+	cout << "hasil = " << siswa1.jumlah(10, 90) << endl;
+
+	return 0;
+}
